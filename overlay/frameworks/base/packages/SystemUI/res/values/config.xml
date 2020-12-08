@@ -20,4 +20,9 @@
 <resources>
     <!-- Preferred refresh rate at keyguard, if supported by the display -->
     <integer name="config_keyguardRefreshRate">60</integer>
+
+    <!-- The default tiles to display in QuickSettings -->
+    <string name="quick_settings_tiles_default" translatable="false">
+        wifi,flashlight,bt,airplane,nfc,hotspot,cell,usb_tether
+    </string>
 </resources>
