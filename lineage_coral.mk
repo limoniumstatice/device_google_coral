@@ -17,8 +17,8 @@ PRODUCT_BRAND := google
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=coral \
-    PRIVATE_BUILD_DESC="coral-user 11 RQ1A.210205.004 7038034 release-keys"
+    PRIVATE_BUILD_DESC="coral-user 11 RQ3A.210705.001 7380771 release-keys"
 
-BUILD_FINGERPRINT := google/coral/coral:11/RQ1A.210205.004/7038034:user/release-keys
+BUILD_FINGERPRINT := google/coral/coral:11/RQ3A.210705.001/7380771:user/release-keys
 
 $(call inherit-product, vendor/google/coral/coral-vendor.mk)
